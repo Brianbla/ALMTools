@@ -48,7 +48,7 @@ page**:
 
 **3.** Unzip the PartsUnlimited project, when unzipping be sure and “Unblock” the content or the deployment scripts won’t run
 
-![](<media/21.png>)
+![](<media/21.jpg>)
 
 **4.** Clone the repo of your team project to the location (`C:/Source/HOL`) where you extracted the sample
 
