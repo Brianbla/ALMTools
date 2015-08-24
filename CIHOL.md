@@ -20,7 +20,7 @@ pushed to Visual Studio Online.
 
 **Set up your Visual Studio Online account:** This step helps you download the source code, and then push it to your own Visual Studio Online account.
 
-**Set up Windows virtual machine in Azure as the Build Agent:** In this step, you will create a new Windows machine, install all the dependencies required to be a build machine, and then configure a build agent on it.
+**Add PartsUnlimited source to the Main Repo:** In this step, you will create a new Windows machine, install all the dependencies required to be a build machine, and then configure a build agent on it.
 
 **Create Continuous Integration Build:** In this step, you will create a build definition in Visual Studio Online that will be triggered every time a commit is pushed to your repository in Visual Studio Online. 
 
@@ -29,7 +29,27 @@ pushed to Visual Studio Online.
 We want to push the application code to your Visual Studio Online account in
 order to use Build.
 
-**1.** First, we need to enable secondary credentials. Go to your **account home
+**1.** First, we need to open Team Explorer. Go to your **account home
 page**:
 
 	https://<account>.visualstudio.com
+
+> **Talking Points:** If you need to learn how to setup a VSO account, click 
+
+**2.** Connect to the VSO account project
+
+### Exercise 1: Using own VSO to host Parts Unlimited Project
+
+**1.** Navigate to [https://github.com/Microsoft/PartsUnlimited/tree/aspnet45](https://github.com/Microsoft/PartsUnlimited/tree/aspnet45) and download the sample as a zip
+
+> **Talking Points:** For this lab is vitally IMPORTANT THAT YOU GET THE 4.5 BRANCH! If you want to use this locally you can https://github.com/Microsoft/PartsUnlimited/tree/aspnet45 and download the sample as a zip
+
+**2.** Create folder to `C:/Source/HOL` and save the download to this folder.
+
+**3.** Unzip the PartsUnlimited project, when unzipping be sure and “Unblock” the content or the deployment scripts won’t run
+
+![](<media/21.png>)
+
+**4.** Clone the repo of your team project to the location (`C:/Source/HOL`) where you extracted the sample
+
+**5.**
