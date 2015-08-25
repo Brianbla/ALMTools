@@ -48,7 +48,7 @@ page**:
 
 **3.** Unzip the PartsUnlimited project, when unzipping be sure and “Unblock” the content or the deployment scripts won’t run
 
-![](<media/21.png>)
+![](<media/21.jpg>)
 
 **4.** Clone the repo of your team project to the location (`C:/Source/HOL`) where you extracted the sample
 
@@ -66,16 +66,16 @@ have created against it.
 **2.** Click **Browse** and then select your team project and click
 **Navigate**.
 
-![](<media/22.png>)
+![](<media/22.jpg>)
 
 **3.** Once on the project’s home page, click on the **Build** hub at the top of
 the page.
 
-![](<media/23.png>)
+![](<media/23.jpg>)
 
 **4.** Click the **green “plus” sign**, select **Visual Studio Build**, and then click **OK**.
 
-![](<media/24.png>)
+![](<media/24.jpg>)
 
 > **Talking Points:** As you can see, you can now do Xamarin Android/IOS and Builds as well as Xcode builds.
 
