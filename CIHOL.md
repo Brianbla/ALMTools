@@ -165,7 +165,7 @@ PartsUnlimited source is in.
 
 > **Talking Points:** So that the Build fires off every time there’s a check in, enable the Continuous integration trigger. You can select which branch you wish to monitor, as well.
 
-**11.** Select the Publish Build Artifacts task, and fill in the input values
+**11.** Select the **Publish Build Artifacts** task, and fill in the input values
 with the following:
 
 	Copy Root: C:/Agent/HOL
