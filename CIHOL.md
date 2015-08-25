@@ -38,7 +38,7 @@ page**:
 
 **2.** Connect to the VSO account project using Visual Studio.
 
-![](<media/21.jpg>)
+![](<media/25.jpg>)
 
 ### 1: Using own VSO to host Parts Unlimited Project
 
