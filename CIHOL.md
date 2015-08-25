@@ -38,7 +38,7 @@ page**:
 
 **2.** Connect to the VSO account project
 
-### Exercise 1: Using own VSO to host Parts Unlimited Project
+### 1: Using own VSO to host Parts Unlimited Project
 
 **1.** Navigate to [https://github.com/Microsoft/PartsUnlimited/tree/aspnet45](https://github.com/Microsoft/PartsUnlimited/tree/aspnet45) and download the sample as a zip
 
@@ -48,8 +48,42 @@ page**:
 
 **3.** Unzip the PartsUnlimited project, when unzipping be sure and “Unblock” the content or the deployment scripts won’t run
 
-![](<media/21.jpg>)
+![](<media/21.png>)
 
 **4.** Clone the repo of your team project to the location (`C:/Source/HOL`) where you extracted the sample
 
 **5.**
+
+
+### 2. Create Continuous Integration Build
+
+A continuous integration build will give us the ability check whether the code
+we checked in can compile and will successfully pass any automated tests that we
+have created against it.
+
+**1.** Go to your **account’s homepage**: https://<account\>.visualstudio.com
+
+**2.** Click **Browse** and then select your team project and click
+**Navigate**.
+
+![](<media/22.png>)
+
+**3.** Once on the project’s home page, click on the **Build** hub at the top of
+the page.
+
+![](<media/23.png>)
+
+**4.** Click the **green “plus” sign**, select **Visual Studio Build**, and then click **OK**.
+
+![](<media/24.png>)
+
+> **Talking Points:** As you can see, you can now do Xamarin Android/IOS and Builds as well as Xcode builds.
+
+**5.** Click on the **Repository** tab, and choose the git repository that
+PartsUnlimited source is in.
+
+**6.** We are going to use the **HOL** branch on the Repository tab
+
+> **Talking Points:** We have multiple repos and branches, so we need to select the correct Repo and Branch before we can select which Solution to build.
+
+**7.** Click on the **Build** tab, and click the ellipsis in the Build Solution pane.
