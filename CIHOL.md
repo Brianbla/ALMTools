@@ -89,7 +89,7 @@ the page. Verify the source is in the repo.
 
 ![](<media/32.jpg>)
 
-**10.** Add in the repo name and click **Create Branch**
+**10.** Add in the repo name (i.e. *HOLRepo*) and click **Create Branch**
 
 ![](<media/33.jpg>)
 
