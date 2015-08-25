@@ -198,7 +198,7 @@ We will now test the CI build we created in Exercise 2 by changing code in the P
 
 ![](<media/46.jpg>)
 
-**3.** Click **Build** hub, Click the **Queue** link. This should have triggered the build definition we previously created, and you should get a build summary similar to this, which includes test results:
+**3.** Click **Build** hub, then click the **Queue** link. This should have triggered the build definition we previously created, and you should get a build summary similar to this, which includes test results:
 
 ![](<media/47.jpg>)
 
