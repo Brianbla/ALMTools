@@ -151,7 +151,7 @@ PartsUnlimited source is in.
     
     /p:PackageLocation="C:\Agent\HOL"
 
-![](<media/37.jpg>)
+![](<media/48.jpg>)
 
 **9.** Select the **Visual Studio Test** Task and click **Continue on Error** checkbox.
 
