@@ -72,6 +72,8 @@ Set the **Working Directory** to the following location:
 
 ![](<media/28.jpg>)
 
+> **Talking Points:** Need to build the project so all of the required dependencies get pulled down before being able to deploy. This may take a little time as it needs to pull from Nuget.
+
 **7.** Now we know the site can be built and run, let add the source to the Git repo. Right click on the solution and click **Add to Source Control**.
 
 ![](<media/29.jpg>)
@@ -89,7 +91,7 @@ the page. Verify the source is in the repo.
 
 ![](<media/32.jpg>)
 
-**10.** Add in the repo name and click **Create Branch**
+**10.** Add in the repo name (i.e. *HOLRepo*) and click **Create Branch**
 
 ![](<media/33.jpg>)
 
@@ -98,9 +100,6 @@ the page. Verify the source is in the repo.
 **11.** Now we need to make sure the branch is discoverable from build, click on **Publish Branch**.
 
 ![](<media/34.jpg>)
-
-> **Talking Points:** Need to build the project so all of the required dependencies get pulled down before being able to deploy. This may take a little time as it needs to pull from Nuget.
-
 
 ### 2. Create Continuous Integration Build
 
@@ -198,7 +197,7 @@ We will now test the CI build we created in Exercise 2 by changing code in the P
 
 ![](<media/46.jpg>)
 
-**3.** Click **Build** hub, Click the **Queue** link. This should have triggered the build definition we previously created, and you should get a build summary similar to this, which includes test results:
+**3.** Click **Build** hub, then click the **Queue** link. This should have triggered the build definition we previously created, and you should get a build summary similar to this, which includes test results:
 
 ![](<media/47.jpg>)
 
