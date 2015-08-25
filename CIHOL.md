@@ -24,7 +24,7 @@ pushed to Visual Studio Online.
 
 **Create Continuous Integration Build:** In this step, you will create a build definition in Visual Studio Online that will be triggered every time a commit is pushed to your repository in Visual Studio Online. 
 
-### Pre-Requisite: Set up your Visual Studio Online account
+### Pre-Requisite: Connect to your Visual Studio Online account
 
 We want to push the application code to your Visual Studio Online account in
 order to use Build.
@@ -34,25 +34,35 @@ page**:
 
 	https://<account>.visualstudio.com
 
-> **Talking Points:** If you need to learn how to setup a VSO account, click 
+> **Talking Points:** If you need to learn how to setup a VSO account, click [https://www.visualstudio.com/en-us/get-started/setup/sign-up-for-visual-studio-online](https://www.visualstudio.com/en-us/get-started/setup/sign-up-for-visual-studio-online)
 
-**2.** Connect to the VSO account project
+**2.** Connect to the VSO account project using Visual Studio.
+
+![](<media/21.jpg>)
 
 ### 1: Using own VSO to host Parts Unlimited Project
 
 **1.** Navigate to [https://github.com/Microsoft/PartsUnlimited/tree/aspnet45](https://github.com/Microsoft/PartsUnlimited/tree/aspnet45) and download the sample as a zip
 
-> **Talking Points:** For this lab is vitally IMPORTANT THAT YOU GET THE 4.5 BRANCH! If you want to use this locally you can https://github.com/Microsoft/PartsUnlimited/tree/aspnet45 and download the sample as a zip
+> **Talking Points:** For this lab is vitally IMPORTANT THAT YOU GET THE 4.5 BRANCH!
 
-**2.** Create folder to `C:/Source/HOL` and save the download to this folder.
+**2.** Create folder to `C:\Source\Repos\HOL` and save the download to this folder.
 
 **3.** Unzip the PartsUnlimited project, when unzipping be sure and “Unblock” the content or the deployment scripts won’t run
 
 ![](<media/21.jpg>)
 
-**4.** Clone the repo of your team project to the location (`C:/Source/HOL`) where you extracted the sample
+**4.** Clone the repo of your team project to the location (`C:\Source\Repos\HOL`) where you extracted the sample
 
-**5.**
+![](<media/26.jpg>)
+
+**5.** Click Open and navigate to the Parts Unlimited Project Solution in Solution Explorer
+
+![](<media/27.jpg>)
+
+**6.** Run the project and verify the site can be built.
+
+
 
 
 ### 2. Create Continuous Integration Build
@@ -82,8 +92,12 @@ the page.
 **5.** Click on the **Repository** tab, and choose the git repository that
 PartsUnlimited source is in.
 
+![](<media/25.jpg>)
+
 **6.** We are going to use the **HOL** branch on the Repository tab
 
 > **Talking Points:** We have multiple repos and branches, so we need to select the correct Repo and Branch before we can select which Solution to build.
 
 **7.** Click on the **Build** tab, and click the ellipsis in the Build Solution pane.
+
+![](<media/26.jpg>)
