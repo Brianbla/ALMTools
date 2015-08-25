@@ -46,13 +46,21 @@ page**:
 
 > **Talking Points:** For this lab is vitally IMPORTANT THAT YOU GET THE 4.5 BRANCH!
 
-**2.** Create folder to `C:\Source\Repos\HOL` and save the download to this folder.
+**2.** Create folder and save the download to this folder.
+
+Create **Working Directory** to the following location:
+
+`C:\Source\Repos\HOL`
 
 **3.** Unzip the PartsUnlimited project, when unzipping be sure and “Unblock” the content or the deployment scripts won’t run
 
 ![](<media/21.jpg>)
 
-**4.** Clone the repo of your team project to the location (`C:\Source\Repos\HOL`) where you extracted the sample
+**4.** Clone the repo of your team project to the location where you extracted the sample
+
+Set the **Working Directory** to the following location:
+
+`C:\Source\Repos\HOL`
 
 ![](<media/26.jpg>)
 
@@ -121,12 +129,61 @@ the page.
 **5.** Click on the **Repository** tab, and choose the git repository that
 PartsUnlimited source is in.
 
-![](<media/25.jpg>)
+![](<media/35.jpg>)
 
-**6.** We are going to use the **HOL** branch on the Repository tab
+**6.** We are going to use the **HOLRepo** branch on the Repository tab
 
 > **Talking Points:** We have multiple repos and branches, so we need to select the correct Repo and Branch before we can select which Solution to build.
 
-**7.** Click on the **Build** tab, and click the ellipsis in the Build Solution pane.
+**7.** Click on the **Build** tab, and click the **ellipsis** in the Build Solution pane. Select the PartsUnlimited solution file.
 
-![](<media/26.jpg>)
+![](<media/36.jpg>)
+
+**8.** Now Enter the following information to **MSBuild** parameters:
+    
+    /p:DeployOnBuild=true 
+    
+    /p:WebPublishMethod=Package 
+    
+    /p:PackageAsSingleFile=true 
+    
+    /p:SkipInvalidConfigurations=true 
+    
+    /p:PackageLocation="C:\Agent\HOL"
+
+![](<media/37.jpg>)
+
+**9.** Select the **Visual Studio Test** Task and click **Continue on Error** checkbox.
+
+![](<media/44.jpg>)
+
+> **Talking Points:** If any of your tests fail the build will fail. If you do not want the build to fail, click” Continue On Error” and the build will partially succeed.
+
+**10.** Click on the **Trigger** tab, , click **Continuous Integration**. Make sure the filter to include **HOLRepo** and **Batch Changes** checkbox is unchecked
+
+![](<media/38.jpg>)
+
+> **Talking Points:** So that the Build fires off every time there’s a check in, enable the Continuous integration trigger. You can select which branch you wish to monitor, as well.
+
+
+**11.** Click **Publish Build Artifact** and add in the following parameters:
+
+Set the **Copy Root ** to the following location:
+
+    C:\Agent\HOL 
+
+Set the **Contents ** to the following:
+    
+     *.zip
+
+![](<media/39.jpg>)
+
+**12.** Click **Save** and name the build definition **“HOL Build”**.
+
+![](<media/41.jpg>)
+
+**13.** Queue the Build and view the progress in the console.
+
+![](<media/42.jpg>)
+
+![](<media/43.jpg>)
