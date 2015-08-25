@@ -187,3 +187,32 @@ Set the **Contents ** to the following:
 ![](<media/42.jpg>)
 
 ![](<media/43.jpg>)
+
+### 3. Test the CI Trigger in Visual Studio Online
+
+We will now test the CI build we created in Exercise 2 by changing code in the Parts Unlimited project in Visual Studio Online. 
+
+**1.** Click **Code** hub and then select your your repo, **HOLRepo**. Navigate to **Controllers/HomeController.cs** in the PartsUnlimited project, then click **Edit**.
+
+![](<media/45.jpg>)
+
+**2.** After clicking **Edit**, add in text to the top of the constuctor of the **HomeController.cs** file. Once complete, click **Save**.
+
+![](<media/46.jpg>)
+
+**3.** Click **Build** hub, Click the **Queue** link and verify your CI build is running.
+
+![](<media/47.jpg>)
+
+Next steps
+----------
+
+In this lab, you learned how to push new code to Visual Studio Online, setup a Git repo and create a Continuous
+Integration build that runs when new commits are pushed to the master branch.
+This allows you to get feedback as to whether your changes made breaking syntax
+changes, or if they broke one or more automated tests, or if your changes are a
+okay. 
+
+Try these labs out for next steps:
+
+-   HOL Parts Unlimited Continuous Delivery
