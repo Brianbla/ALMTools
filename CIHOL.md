@@ -151,7 +151,7 @@ PartsUnlimited source is in.
     
     /p:PackageLocation="C:\Agent\HOL"
 
-![](<media/37.jpg>)
+![](<media/48.jpg>)
 
 **9.** Select the **Visual Studio Test** Task and click **Continue on Error** checkbox.
 
@@ -165,20 +165,18 @@ PartsUnlimited source is in.
 
 > **Talking Points:** So that the Build fires off every time there’s a check in, enable the Continuous integration trigger. You can select which branch you wish to monitor, as well.
 
+**11.** Select the **Publish Build Artifacts** task, and fill in the input values
+with the following:
 
-**11.** Click **Publish Build Artifact** and add in the following parameters:
-
-Set the **Copy Root ** to the following location:
-
-    C:\Agent\HOL 
-
-Set the **Contents ** to the following:
-    
-     *.zip
+	Copy Root: C:/Agent/HOL
+	Contents: *.zip
+	Artifact Name: drop
+	Artifact Type: Server
 
 ![](<media/39.jpg>)
 
-**12.** Click **Save** and name the build definition **“HOL Build”**.
+**12.** Click **Save** and give the build definition a name (i.e.
+*“HOL Build”*).
 
 ![](<media/41.jpg>)
 
@@ -200,7 +198,7 @@ We will now test the CI build we created in Exercise 2 by changing code in the P
 
 ![](<media/46.jpg>)
 
-**3.** Click **Build** hub, Click the **Queue** link and verify your CI build is running.
+**3.** Click **Build** hub, Click the **Queue** link. This should have triggered the build definition we previously created, and you should get a build summary similar to this, which includes test results:
 
 ![](<media/47.jpg>)
 
