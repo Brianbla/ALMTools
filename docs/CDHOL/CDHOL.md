@@ -13,7 +13,7 @@ create a new Release Pipleine with Release Management Online using Visual Studio
 -   An active Azure subscription
 
 -   Project Admin rights to the Visual Studio Online account
--   
+ 
 ### Tasks Overview: ###
 
 **Set up your Visual Studio Online account:** This step helps you download the source code, and then push it to your own Visual Studio Online account.
