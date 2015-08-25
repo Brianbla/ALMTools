@@ -18,9 +18,7 @@ create a new Release Pipleine with Release Management Online using Visual Studio
 
 **Set up your Visual Studio Online account:** This step helps you download the source code, and then push it to your own Visual Studio Online account.
 
-**Add PartsUnlimited source to the Main Repo:** In this step, you will create a new Windows machine, install all the dependencies required to be a build machine, and then configure a build agent on it.
-
-**Create Continuous Integration Build:** In this step, you will create a build definition in Visual Studio Online that will be triggered every time a commit is pushed to your repository in Visual Studio Online. 
+**Create Continuous Delivery Pipeline:** In this step, you will create a release pipeline in Visual Studio Online that will be triggered every time a commit is pushed to your repository in Visual Studio Online. 
 
 ### Pre-Requisite: Connect to your Visual Studio Online account
 
