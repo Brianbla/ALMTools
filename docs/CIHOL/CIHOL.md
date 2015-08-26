@@ -67,26 +67,22 @@ Set the **Working Directory** to the following location:
 
 ![](<media/27.jpg>)
 
-**6.** Run the project and verify the site can be built.
-
-![](<media/28.jpg>)
-
 > **Note:** Need to build the project so all of the required dependencies get pulled down before being able to deploy. This may take a little time as it needs to pull from Nuget.
 
-**7.** Now we know the site can be built and run, let add the source to the Git repo. Right click on the solution and click **Add to Source Control**.
+**6.** Now we know the site can be built and run, let add the source to the Git repo. Right click on the solution and click **Add to Source Control**.
 
 ![](<media/29.jpg>)
 
-**8.** The Changes windows will appear, add in checkin text and verify the source is ready to be committed. Click on **Commit and Push**.
+**7.** The Changes windows will appear, add in checkin text and verify the source is ready to be committed. Click on **Commit and Push**.
 
 ![](<media/30.jpg>)
 
-**9.** Once the changes have been committed, click on the **Code** hub at the top of
+**8.** Once the changes have been committed, click on the **Code** hub at the top of
 the page. Verify the source is in the repo.
 
 ![](<media/31.jpg>)
 
-**10.** Now it is time to create a local repo to work from, in the Team Explorer, click **Branches** -> Right click on **Master** -> **New Local Branch from**... 
+**9.** Now it is time to create a local repo to work from, in the Team Explorer, click **Branches** -> Right click on **Master** -> **New Local Branch from**... 
 
 ![](<media/32.jpg>)
 
