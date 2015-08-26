@@ -12,20 +12,20 @@ pushed to Visual Studio Online.
 
 -   An active Visual Studio Online account
 
--   An active Azure subscription
+-   An Visual Studio 2015 or Visual Studio 2013 Update 5 client
 
 -   Project Admin rights to the Visual Studio Online account
 
 ### Tasks Overview: ###
 
-**Set up your Visual Studio Online account:** This step helps you download the source code, and then push it to your own Visual Studio Online account. If you need to learn how to setup a VSO account, click [https://www.visualstudio.com/en-us/get-started/setup/sign-up-for-visual-studio-online](https://www.visualstudio.com/en-us/get-started/setup/sign-up-for-visual-studio-online)
+** 1. Connect to your Visual Studio Online account:** In this step, you will connect your own Visual Studio Online account. If you need to learn how to setup a VSO account, click [https://www.visualstudio.com/en-us/get-started/setup/sign-up-for-visual-studio-online](https://www.visualstudio.com/en-us/get-started/setup/sign-up-for-visual-studio-online)
 
-**Add PartsUnlimited source to the Main Repo:** In this step, you will create a new Windows machine, install all the dependencies required to be a build machine, and then configure a build agent on it.
+** 2. Add PartsUnlimted to the VSO account using Visual Studio:** In this step, you download the PartsUnlimited source code, and then push it to your own Visual Studio Online account.
 <!-- We should not have them build a new build agent.  Use hosted build controller -->
 
-**Create Continuous Integration Build:** In this step, you will create a build definition in Visual Studio Online that will be triggered every time a commit is pushed to your repository in Visual Studio Online. 
+** 3. Create Continuous Integration Build:** In this step, you will create a build definition in Visual Studio Online that will be triggered every time a commit is pushed to your repository in Visual Studio Online. 
 
-### Pre-Requisite: Connect to your Visual Studio Online account
+### 1: Connect to your Visual Studio Online account
 
 We want to push the application code to your Visual Studio Online account in
 order to use Build.
@@ -40,7 +40,7 @@ page**:
 
 ![](<media/25.jpg>)
 
-### 1: Using own VSO to host Parts Unlimited Project
+### 2: Add PartsUnlimted to the VSO account using Visual Studio
 
 **1.** Navigate to [https://github.com/Microsoft/PartsUnlimited/tree/aspnet45](https://github.com/Microsoft/PartsUnlimited/tree/aspnet45) and download the sample as a zip
 
