@@ -18,7 +18,7 @@ pushed to Visual Studio Online.
 
 ### Tasks Overview: ###
 
-**1. Connect to your Visual Studio Online account:** In this step, you will connect your own Visual Studio Online account. <!--If you need to learn how to setup a VSO account, click [https://www.visualstudio.com/en-us/get-started/setup/sign-up-for-visual-studio-online](https://www.visualstudio.com/en-us/get-started/setup/sign-up-for-visual-studio-online)-->
+**1. Connect to your Visual Studio Online account:** In this step, you will connect your own Visual Studio Online account. 
 
 **2. Add PartsUnlimted to your VSO account using Visual Studio:** In this step, you download the PartsUnlimited source code, and then push it to your own Visual Studio Online account.
 
