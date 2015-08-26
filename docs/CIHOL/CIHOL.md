@@ -67,9 +67,7 @@ Set the **Working Directory** to the following location:
 
 ![](<media/27.jpg>)
 
-> **Note:** Need to build the project so all of the required dependencies get pulled down before being able to deploy. This may take a little time as it needs to pull from Nuget.
-
-**6.** Now we know the site can be built and run, let add the source to the Git repo. Right click on the solution and click **Add to Source Control**.
+**6.** Now we will add the source to the Git repo. Right click on the solution and click **Add to Source Control**.
 
 ![](<media/29.jpg>)
 
