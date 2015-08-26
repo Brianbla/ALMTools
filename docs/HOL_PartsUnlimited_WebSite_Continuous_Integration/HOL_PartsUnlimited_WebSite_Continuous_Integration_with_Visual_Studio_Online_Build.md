@@ -1,4 +1,4 @@
-HOL - Parts Unlimited WebSite Continuous Integration with Visual Studio Online Build
+HOL - Parts Unlimited WebSite Continuous Integration with Visual Studio Online
 ====================================================================================
 In this lab we have an application called PartsUnlimited. We want to set up
 Visual Studio Online to be able continuously integrate code into the master
@@ -207,4 +207,5 @@ okay.
 
 Try these labs out for next steps:
 
+-   HOL PartsUnlimited WebSite Continuous Integration with Visual Studio Online & GitHub
 -   HOL Parts Unlimited Continuous Delivery using Release Managment Online
