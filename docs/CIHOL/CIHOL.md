@@ -18,12 +18,12 @@ pushed to Visual Studio Online.
 
 ### Tasks Overview: ###
 
-** 1. Connect to your Visual Studio Online account:** In this step, you will connect your own Visual Studio Online account. If you need to learn how to setup a VSO account, click [https://www.visualstudio.com/en-us/get-started/setup/sign-up-for-visual-studio-online](https://www.visualstudio.com/en-us/get-started/setup/sign-up-for-visual-studio-online)
+**1. Connect to your Visual Studio Online account:** In this step, you will connect your own Visual Studio Online account. If you need to learn how to setup a VSO account, click [https://www.visualstudio.com/en-us/get-started/setup/sign-up-for-visual-studio-online](https://www.visualstudio.com/en-us/get-started/setup/sign-up-for-visual-studio-online)
 
-** 2. Add PartsUnlimted to the VSO account using Visual Studio:** In this step, you download the PartsUnlimited source code, and then push it to your own Visual Studio Online account.
+**2. Add PartsUnlimted to the VSO account using Visual Studio:** In this step, you download the PartsUnlimited source code, and then push it to your own Visual Studio Online account.
 <!-- We should not have them build a new build agent.  Use hosted build controller -->
 
-** 3. Create Continuous Integration Build:** In this step, you will create a build definition in Visual Studio Online that will be triggered every time a commit is pushed to your repository in Visual Studio Online. 
+**3. Create Continuous Integration Build:** In this step, you will create a build definition in Visual Studio Online that will be triggered every time a commit is pushed to your repository in Visual Studio Online. 
 
 ### 1: Connect to your Visual Studio Online account
 
