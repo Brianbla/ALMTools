@@ -207,4 +207,4 @@ okay.
 
 Try these labs out for next steps:
 
--   HOL Parts Unlimited Continuous Delivery
+-   HOL Parts Unlimited Continuous Delivery using Release Managment Online
