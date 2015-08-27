@@ -18,11 +18,13 @@ pushed to Visual Studio Online.
 
 ### Tasks Overview: ###
 
-**1. Connect to your Visual Studio Online account:** In this step, you will connect your own Visual Studio Online account. 
+**1. Setup your Visual Studio Online Account using Visual Studio:** In this step, you will connect your own Visual Studio Online account, download the PartsUnlimited source code, and then push it to your own Visual Studio Online account. 
 
-**2. Add PartsUnlimited to your VSO account using Visual Studio:** In this step, you download the PartsUnlimited source code, and then push it to your own Visual Studio Online account.
+**2. Setup your Visual Studio Online Account using Git:** In this step, you download the PartsUnlimited source code, and then push it to your own Visual Studio Online account.
 
 **3. Create Continuous Integration Build:** In this step, you will create a build definition in Visual Studio Online that will be triggered every time a commit is pushed to your repository in Visual Studio Online. 
+
+**4. Test the CI Trigger in Visual Studio Online:** In this step, test the Continuous Integration build (CI) build we created by changing code in the Parts Unlimited project with Visual Studio Online. 
 
 ### 1: Connect to your Visual Studio Online account
 
@@ -180,7 +182,7 @@ with the following:
 
 ### 3. Test the CI Trigger in Visual Studio Online
 
-We will now test the CI build we created in Exercise 2 by changing code in the Parts Unlimited project in Visual Studio Online. 
+We will now test the Continuous Integration build (CI) build we created on Task 3 by changing code in the Parts Unlimited project with Visual Studio Online.
 
 **1.** Click **Code** hub and then select your your repo, **HOLRepo**. Navigate to **Controllers/HomeController.cs** in the PartsUnlimited project, then click **Edit**.
 
