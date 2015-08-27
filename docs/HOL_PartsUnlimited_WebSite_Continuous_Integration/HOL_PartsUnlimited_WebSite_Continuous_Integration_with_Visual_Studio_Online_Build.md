@@ -209,5 +209,4 @@ okay.
 
 Try these labs out for next steps:
 
--   HOL PartsUnlimited WebSite Continuous Integration with Visual Studio Online & GitHub
 -   HOL Parts Unlimited Continuous Delivery using Release Managment Online
