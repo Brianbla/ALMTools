@@ -145,11 +145,13 @@ PartsUnlimited source is in.
 
 ![](<media/48.jpg>)
 
-**9.** Select the **Visual Studio Test** Task and click **Continue on Error** checkbox.
+**9.** Since the PartUnlimited project has passing and failing tests, Select the **Visual Studio Test** Task and click **Continue on Error** checkbox. 
+
+> **Talking Points:** Clicking the **Continue on Error** checkbox will allow the build to partially succeed which will allow us to use this build for other tasks, let's just say using the build for Continuous Delivery. 
 
 ![](<media/44.jpg>)
 
-> **Note:** If any of your tests fail the build will fail. If you do not want the build to fail, click” Continue On Error” and the build will partially succeed.
+> **Talking Points:** If any of your tests fail the build will fail. If you do not want the build to fail, click” Continue On Error” and the build will partially succeed.
 
 **10.** Click on the **Trigger** tab, , click **Continuous Integration**. Make sure the filter to include **HOLRepo** and **Batch Changes** checkbox is unchecked
 
@@ -180,7 +182,7 @@ We will now test the Continuous Integration build (CI) build we created on Task 
 
 ![](<media/45.jpg>)
 
-**2.** After clicking **Edit**, add in text to the top of the constuctor of the **HomeController.cs** file. Once complete, click **Save**.
+**2.** After clicking **Edit**, add in text (i.e. *This is a test*) to the top of the constuctor of the **HomeController.cs** file. Once complete, click **Save**.
 
 ![](<media/46.jpg>)
 
