@@ -172,12 +172,6 @@ with the following:
 
 ![](<media/41.jpg>)
 
-**13.** Queue the Build and view the progress in the console.
-
-![](<media/42.jpg>)
-
-![](<media/43.jpg>)
-
 ### 3. Test the CI Trigger in Visual Studio Online
 
 We will now test the Continuous Integration build (CI) build we created on Task 3 by changing code in the Parts Unlimited project with Visual Studio Online.
