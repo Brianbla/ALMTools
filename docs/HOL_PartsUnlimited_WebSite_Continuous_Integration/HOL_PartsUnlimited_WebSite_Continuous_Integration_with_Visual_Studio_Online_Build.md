@@ -20,7 +20,7 @@ pushed to Visual Studio Online.
 
 **1. Connect to your Visual Studio Online account:** In this step, you will connect your own Visual Studio Online account. 
 
-**2. Add PartsUnlimted to your VSO account using Visual Studio:** In this step, you download the PartsUnlimited source code, and then push it to your own Visual Studio Online account.
+**2. Add PartsUnlimited to your VSO account using Visual Studio:** In this step, you download the PartsUnlimited source code, and then push it to your own Visual Studio Online account.
 
 **3. Create Continuous Integration Build:** In this step, you will create a build definition in Visual Studio Online that will be triggered every time a commit is pushed to your repository in Visual Studio Online. 
 
@@ -39,7 +39,7 @@ page**:
 
 ![](<media/25.jpg>)
 
-### 2: Add PartsUnlimted to your VSO account using Visual Studio
+### 2: Add PartsUnlimited to your VSO account using Visual Studio
 
 **1.** Navigate to [https://github.com/Microsoft/PartsUnlimited/tree/aspnet45](https://github.com/Microsoft/PartsUnlimited/tree/aspnet45) and download the sample as a zip
 
