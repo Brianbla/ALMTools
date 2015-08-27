@@ -20,13 +20,13 @@ pushed to Visual Studio Online.
 
 **1. Setup your Visual Studio Online Account using Visual Studio:** In this step, you will connect your own Visual Studio Online account, download the PartsUnlimited source code, and then push it to your own Visual Studio Online account. 
 
-**2. Setup your Visual Studio Online Account using Git:** In this step, you download the PartsUnlimited source code, and then push it to your own Visual Studio Online account.
+<!-- **2. Setup your Visual Studio Online Account using Git:** In this step, you download the PartsUnlimited source code, and then push it to your own Visual Studio Online account. -->
 
-**3. Create Continuous Integration Build:** In this step, you will create a build definition in Visual Studio Online that will be triggered every time a commit is pushed to your repository in Visual Studio Online. 
+**2. Create Continuous Integration Build:** In this step, you will create a build definition in Visual Studio Online that will be triggered every time a commit is pushed to your repository in Visual Studio Online. 
 
-**4. Test the CI Trigger in Visual Studio Online:** In this step, test the Continuous Integration build (CI) build we created by changing code in the Parts Unlimited project with Visual Studio Online. 
+**3. Test the CI Trigger in Visual Studio Online:** In this step, test the Continuous Integration build (CI) build we created by changing code in the Parts Unlimited project with Visual Studio Online. 
 
-### 1: Connect to your Visual Studio Online account
+### 1: Setup your Visual Studio Online Account using Visual Studio
 
 We want to push the application code to your Visual Studio Online account in
 order to use Build.
@@ -41,23 +41,21 @@ page**:
 
 ![](<media/25.jpg>)
 
-### 2: Add PartsUnlimited to your VSO account using Visual Studio
-
-**1.** Navigate to [https://github.com/Microsoft/PartsUnlimited/tree/aspnet45](https://github.com/Microsoft/PartsUnlimited/tree/aspnet45) and download the sample as a zip
+**3.** Navigate to [https://github.com/Microsoft/PartsUnlimited/tree/aspnet45](https://github.com/Microsoft/PartsUnlimited/tree/aspnet45) and download the sample as a zip
 
 > **Note:** For this lab is vitally IMPORTANT THAT YOU GET THE 4.5 BRANCH!
 
-**2.** Create folder and save the download to this folder.
+**4.** Create folder and save the download to this folder.
 
 Create **Working Directory** to the following location:
 
 `C:\Source\Repos\HOL`
 
-**3.** Unzip the PartsUnlimited project, when unzipping be sure and “Unblock” the content or the deployment scripts won’t run
+**5.** Unzip the PartsUnlimited project, when unzipping be sure and “Unblock” the content or the deployment scripts won’t run
 
 ![](<media/21.jpg>)
 
-**4.** Clone the repo of your team project to the location where you extracted the sample
+**6.** Clone the repo of your team project to the location where you extracted the sample
 
 Set the **Working Directory** to the following location:
 
@@ -65,11 +63,11 @@ Set the **Working Directory** to the following location:
 
 ![](<media/26.jpg>)
 
-**5.** Click Open and navigate to the Parts Unlimited Project Solution in Solution Explorer
+**7.** Click Open and navigate to the Parts Unlimited Project Solution in Solution Explorer
 
 ![](<media/27.jpg>)
 
-**6.** Now we will add the source to the Git repo. Right click on the solution and click **Add to Source Control**.
+**8.** Now we will add the source to the Git repo. Right click on the solution and click **Add to Source Control**.
 
 ![](<media/29.jpg>)
 
@@ -77,22 +75,22 @@ Set the **Working Directory** to the following location:
 
 ![](<media/30.jpg>)
 
-**8.** Once the changes have been committed, click on the **Code** hub at the top of
+**9.** Once the changes have been committed, click on the **Code** hub at the top of
 the page. Verify the source is in the repo.
 
 ![](<media/31.jpg>)
 
-**9.** Now it is time to create a local repo to work from, in the Team Explorer, click **Branches** -> Right click on **Master** -> **New Local Branch from**... 
+**10.** Now it is time to create a local repo to work from, in the Team Explorer, click **Branches** -> Right click on **Master** -> **New Local Branch from**... 
 
 ![](<media/32.jpg>)
 
-**10.** Add in the repo name (i.e. *HOLRepo*) and click **Create Branch**
+**11.** Add in the repo name (i.e. *HOLRepo*) and click **Create Branch**
 
 ![](<media/33.jpg>)
 
 > **Note:** Publishing back to VSO when cloning a repo allow the build definition to see the new repo for building out the projects.
 
-**11.** Now we need to make sure the branch is discoverable from build, click on **Publish Branch**.
+**12.** Now we need to make sure the branch is discoverable from build, click on **Publish Branch**.
 
 ![](<media/34.jpg>)
 
