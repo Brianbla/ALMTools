@@ -38,7 +38,7 @@ page**:
 
 ![](<media/25.jpg>)
 
-> **Talking Points:** For this lab we are using VSO Git. The next couple of steps will allow us to add the PartsUnlimited source to a master repository.
+> **Talking Points:** For this lab we are using VSO Git project. The next couple of steps will allow us to add the PartsUnlimited source to a master repository.
 
 **3.** Navigate to [https://github.com/Microsoft/PartsUnlimited/tree/aspnet45](https://github.com/Microsoft/PartsUnlimited/tree/aspnet45) and download the sample as a zip
 
